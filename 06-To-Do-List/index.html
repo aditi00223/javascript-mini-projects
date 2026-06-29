@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="app">
+    <div class="header">
+      <span class="title">My tasks</span>
+      <span class="count" id="count">0 tasks</span>
+    </div>
+    <div class="input-row">
+      <input type="text" id="inp" placeholder="Add a new task..."
+             onkeydown="if(event.key==='Enter') addTask()"/>
+      <button class="add-btn" onclick="addTask()">Add</button>
+    </div>
+    <div class="filters">
+      <button class="f-btn active" onclick="setFilter('all', this)">All</button>
+      <button class="f-btn"        onclick="setFilter('active', this)">Active</button>
+      <button class="f-btn"        onclick="setFilter('done', this)">Done</button>
+    </div>
+    <div class="list" id="list"></div>
+    <div class="footer">
+      <span class="left-count" id="left"></span>
+      <button class="clear-btn" onclick="clearDone()">Clear done</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
