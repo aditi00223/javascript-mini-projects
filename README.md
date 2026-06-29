@@ -1,63 +1,78 @@
-# 📘 Multiplication Table Generator
+# 🚀 JavaScript Mini Projects
 
-A simple and interactive web application that generates the multiplication table of any number entered by the user.
+Welcome to my **JavaScript Mini Projects** repository!
 
-## 🚀 Features
+This repository contains a collection of beginner-to-intermediate web development projects built while learning **HTML**, **CSS**, and **JavaScript**.
 
-* Generate multiplication tables from **1 to 10**
-* Clean and responsive user interface
-* Modern dark theme with subtle tech-inspired colors
-* Input validation for empty fields
-* Built using HTML, CSS, and JavaScript
+Each project helps me strengthen my understanding of JavaScript concepts, DOM manipulation, UI design, and problem-solving.
+
+---
+
+## 📂 Projects
+
+| No. | Project | Status |
+|-----|---------|--------|
+| 01 | 📘 Multiplication Table Generator | ✅ Completed |
+| 02 | 🧮 Calculator | ⏳ Coming Soon |
+| 03 | 🚦 Traffic Signal Simulator | ⏳ Coming Soon |
+| 04 | 📝 To-Do List | ⏳ Coming Soon |
+| 05 | 💱 Currency Converter | ⏳ Coming Soon |
+| 06 | 🏧 ATM Interface | ⏳ Coming Soon |
+| 07 | 💰 Expense Tracker | ⏳ Coming Soon |
+
+---
 
 ## 🛠️ Technologies Used
 
-* HTML5
-* CSS3
-* JavaScript (ES6)
+- HTML5
+- CSS3
+- JavaScript (ES6)
 
-## 📂 Project Structure
+---
 
-```text
-01-Multiplication-Table-Generator
+## 📚 What I'm Learning
+
+- Variables & Data Types
+- Functions
+- Loops
+- Conditional Statements
+- DOM Manipulation
+- Events
+- Arrays & Objects
+- Local Storage
+- Fetch API
+- Responsive Web Design
+
+---
+
+## 📁 Repository Structure
+
+```
+javascript-mini-projects/
 │
-├── index.html
-├── style.css
-├── script.js
-├── README.md
-└── images/
+├── 01-Multiplication-Table-Generator
+├── 02-Calculator
+├── 03-Traffic-Signal
+├── 04-To-Do-List
+├── 05-Currency-Converter
+├── 06-ATM-Interface
+└── 07-Expense-Tracker
 ```
 
-## ▶️ How to Run
+---
 
-1. Download or clone this repository.
-2. Open the `01-Multiplication-Table-Generator` folder.
-3. Double-click `index.html` or open it with Live Server in VS Code.
+## 🎯 Goal
 
+The goal of this repository is to build a strong JavaScript portfolio by creating practical projects and improving my front-end development skills.
 
-
-## 📚 Learning Outcomes
-
-While building this project, I practiced:
-
-* DOM Manipulation
-* Event Handling
-* JavaScript Functions
-* Loops (`for`)
-* User Input Validation
-* String Templates
-* Basic UI Design with CSS
-
-## 🎯 Future Improvements
-
-* Generate tables up to any custom limit
-* Add a **Clear** button
-* Allow pressing **Enter** to generate the table
-* Add copy-to-clipboard functionality
-* Export the table as a text file
+---
 
 ## 👩‍💻 Author
 
 **Aditi Sharma**
 
-GitHub: https://github.com/aditi00223
+- GitHub: https://github.com/aditi00223
+
+---
+
+⭐ If you find this repository helpful, feel free to star it!
