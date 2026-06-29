@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Traffic Signal</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="scene">
+    <div class="pole-wrap">
+      <div class="box">
+        <div class="light off-red"    id="l-red"></div>
+        <div class="light off-yellow" id="l-yellow"></div>
+        <div class="light off-green"  id="l-green"></div>
+      </div>
+      <div class="pole"></div>
+    </div>
+    <div class="road"></div>
+    <div class="info">
+      <div class="state-label" id="state-label">Red</div>
+      <div class="timer-bar-wrap">
+        <div class="timer-bar" id="timer-bar"></div>
+      </div>
+      <div class="timer-txt" id="timer-txt">5s remaining</div>
+    </div>
+    <div class="controls">
+      <button class="btn red-btn"    onclick="manual('red')">Red</button>
+      <button class="btn yel-btn"    onclick="manual('yellow')">Yellow</button>
+      <button class="btn grn-btn"    onclick="manual('green')">Green</button>
+      <button class="btn active-btn" id="auto-btn" onclick="toggleAuto()">Auto on</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
