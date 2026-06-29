@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Digital Clock</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="clock-wrapper">
+    <div class="date-display" id="date">Monday, 01 January 2024</div>
+    <div class="time-display">
+      <div class="time-segment">
+        <span class="digits" id="hours">00</span>
+        <span class="label">Hours</span>
+      </div>
+      <span class="colon" id="colon">:</span>
+      <div class="time-segment">
+        <span class="digits" id="minutes">00</span>
+        <span class="label">Minutes</span>
+      </div>
+      <span class="colon">:</span>
+      <div class="time-segment">
+        <span class="digits" id="seconds">00</span>
+        <span class="label">Seconds</span>
+      </div>
+      <span class="ampm" id="ampm"></span>
+    </div>
+    <div class="divider"></div>
+    <div class="controls">
+      <button class="btn active" id="btn12" onclick="setFormat(12)">12H</button>
+      <button class="btn" id="btn24" onclick="setFormat(24)">24H</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
