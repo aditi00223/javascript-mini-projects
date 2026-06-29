@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stone Paper Scissors</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="wrap">
+    <div class="scores">
+      <div class="score-card you">
+        <div class="score-label">You</div>
+        <div class="score-num" id="s-you">0</div>
+      </div>
+      <div class="score-card draw">
+        <div class="score-label">Draw</div>
+        <div class="score-num" id="s-draw">0</div>
+      </div>
+      <div class="score-card cpu">
+        <div class="score-label">CPU</div>
+        <div class="score-num" id="s-cpu">0</div>
+      </div>
+    </div>
+
+    <div class="arena">
+      <div class="side">
+        <div class="side-label">You</div>
+        <div class="hand" id="h-you">🤜</div>
+      </div>
+      <div class="vs">VS</div>
+      <div class="side">
+        <div class="side-label">CPU</div>
+        <div class="hand" id="h-cpu">🤛</div>
+      </div>
+    </div>
+
+    <div class="result-banner idle" id="result">Pick your move</div>
+
+    <div class="choices">
+      <button class="choice-btn" onclick="play('stone')"   title="Stone">✊</button>
+      <button class="choice-btn" onclick="play('paper')"   title="Paper">✋</button>
+      <button class="choice-btn" onclick="play('scissors')" title="Scissors">✌️</button>
+    </div>
+
+    <button class="reset-btn" onclick="reset()">Reset scores</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
