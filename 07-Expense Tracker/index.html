@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="app">
+    <div class="summary">
+      <div class="s-card">
+        <div class="s-label">Income</div>
+        <div class="s-val green" id="s-inc">₹0</div>
+      </div>
+      <div class="s-card">
+        <div class="s-label">Expense</div>
+        <div class="s-val red" id="s-exp">₹0</div>
+      </div>
+      <div class="s-card">
+        <div class="s-label">Balance</div>
+        <div class="s-val blue" id="s-bal">₹0</div>
+      </div>
+    </div>
+
+    <div class="prog-wrap">
+      <div class="prog-bar" id="prog" style="width:0%"></div>
+    </div>
+
+    <div class="form-card">
+      <div class="type-row">
+        <button class="type-btn sel-exp" id="btn-exp" onclick="setType('expense')">Expense</button>
+        <button class="type-btn"         id="btn-inc" onclick="setType('income')">Income</button>
+      </div>
+      <div class="form-row">
+        <input type="text"   id="f-desc" placeholder="Description" style="flex:2"/>
+        <input type="number" id="f-amt"  placeholder="Amount" min="0"/>
+      </div>
+      <div class="form-row">
+        <select id="f-cat">
+          <option value="Food">Food</option>
+          <option value="Transport">Transport</option>
+          <option value="Shopping">Shopping</option>
+          <option value="Bills">Bills</option>
+          <option value="Health">Health</option>
+          <option value="Salary">Salary</option>
+          <option value="Other">Other</option>
+        </select>
+        <input type="date" id="f-date"/>
+      </div>
+      <button class="add-btn" onclick="addEntry()">Add entry</button>
+    </div>
+
+    <div class="section-title">Transactions</div>
+    <div class="list" id="list"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
