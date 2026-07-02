@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>E-Commerce Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Shop</h1>
+
+    <div class="main-layout">
+
+      <!-- PRODUCTS SECTION -->
+      <div class="products-section">
+        <h2>Products</h2>
+        <div id="productList" class="product-list">
+          <!-- Products will be loaded here by JS -->
+        </div>
+      </div>
+
+      <!-- CART SECTION -->
+      <div class="cart-section">
+        <h2>Your Cart</h2>
+        <div id="cartList" class="cart-list">
+          <!-- Cart items will be loaded here by JS -->
+        </div>
+        <div class="cart-total">
+          <p>Total</p>
+          <span>₹<span id="cartTotal">0</span></span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
