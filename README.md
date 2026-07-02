@@ -2,68 +2,87 @@
 
 Welcome to my **JavaScript Mini Projects** repository!
 
-This repository contains a collection of beginner-to-intermediate web development projects built while learning **HTML**, **CSS**, and **JavaScript**.
-
-Each project helps me strengthen my understanding of JavaScript concepts, DOM manipulation, UI design, and problem-solving.
+This repository is a collection of beginner-to-intermediate web development projects built while learning **HTML, CSS, and JavaScript**. Each project helped me strengthen my understanding of JavaScript fundamentals, DOM manipulation, responsive design, and problem-solving.
 
 ---
 
 ## 📂 Projects
 
-| No. | Project | Status |
-|-----|---------|--------|
-| 01 | 📘 Multiplication Table Generator | ✅ Completed |
-| 02 | 🧮 Calculator | ⏳ Coming Soon |
-| 03 | 🚦 Traffic Signal Simulator | ⏳ Coming Soon |
-| 04 | 📝 To-Do List | ⏳ Coming Soon |
-| 05 | 💱 Currency Converter | ⏳ Coming Soon |
-| 06 | 🏧 ATM Interface | ⏳ Coming Soon |
-| 07 | 💰 Expense Tracker | ⏳ Coming Soon |
+| No. | Project                           | Status      |
+| --- | --------------------------------- | ----------- |
+| 01  | 📘 Multiplication Table Generator | ✅ Completed |
+| 02  | 🧮 Calculator                     | ✅ Completed |
+| 03  | 🕒 Digital Clock                  | ✅ Completed |
+| 04  | 🚦 Traffic Signal                 | ✅ Completed |
+| 05  | ✂️ Stone Paper Scissors           | ✅ Completed |
+| 06  | 📝 To-Do List                     | ✅ Completed |
+| 07  | 💰 Expense Tracker                | ✅ Completed |
+| 08  | 📱 QR Code Generator              | ✅ Completed |
+| 09  | 💱 Currency Converter             | ✅ Completed |
+| 10  | 🏧 ATM Machine                    | ✅ Completed |
+| 11  | 🏏 Cricket Ground Boundary        | ✅ Completed |
+| 12  | 🛒 Amazon Homepage Clone          | ✅ Completed |
 
 ---
 
 ## 🛠️ Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript (ES6)
+* HTML5
+* CSS3
+* JavaScript (ES6)
 
 ---
 
-## 📚 What I'm Learning
+## 📚 JavaScript Concepts Practiced
 
-- Variables & Data Types
-- Functions
-- Loops
-- Conditional Statements
-- DOM Manipulation
-- Events
-- Arrays & Objects
-- Local Storage
-- Fetch API
-- Responsive Web Design
+* Variables & Data Types
+* Operators
+* Conditional Statements
+* Loops
+* Functions
+* Arrays & Objects
+* DOM Manipulation
+* Event Handling
+* Timers (`setInterval`, `setTimeout`)
+* Local Storage
+* Fetch API
+* Async / Await
+* Responsive Web Design
 
 ---
 
 ## 📁 Repository Structure
 
-```
+```text
 javascript-mini-projects/
 │
 ├── 01-Multiplication-Table-Generator
 ├── 02-Calculator
-├── 03-Traffic-Signal
-├── 04-To-Do-List
-├── 05-Currency-Converter
-├── 06-ATM-Interface
-└── 07-Expense-Tracker
+├── 03-Digital-Clock
+├── 04-Traffic-Signal
+├── 05-Stone-Paper-Scissors
+├── 06-To-Do-List
+├── 07-Expense-Tracker
+├── 08-QR-Code-Generator
+├── 09-Currency-Converter
+├── 10-ATM-Machine
+├── 11-Cricket-Ground-Boundary
+└── 12-Amazon-Homepage-Clone
 ```
 
 ---
 
-## 🎯 Goal
+## 🎯 Learning Outcomes
 
-The goal of this repository is to build a strong JavaScript portfolio by creating practical projects and improving my front-end development skills.
+Through these projects, I practiced:
+
+* Building responsive user interfaces
+* Writing clean and reusable JavaScript
+* Manipulating the DOM
+* Handling user events
+* Working with APIs
+* Managing application state
+* Organizing projects using Git and GitHub
 
 ---
 
@@ -71,8 +90,12 @@ The goal of this repository is to build a strong JavaScript portfolio by creatin
 
 **Aditi Sharma**
 
-- GitHub: https://github.com/aditi00223
+GitHub: **https://github.com/aditi00223**
 
 ---
 
-⭐ If you find this repository helpful, feel free to star it!
+## ⭐ Support
+
+If you found this repository helpful, feel free to **Star ⭐ the repository**.
+
+Happy Coding! 🚀
