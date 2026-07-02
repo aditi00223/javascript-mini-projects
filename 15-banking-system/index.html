@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Banking System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Simple Banking System</h1>
+
+    <div class="balance-box">
+      <p>Current Balance</p>
+      <h2>₹<span id="balance">0</span></h2>
+    </div>
+
+    <div class="action-box">
+      <input type="number" id="amountInput" placeholder="Enter amount">
+      <div class="buttons">
+        <button onclick="deposit()">Deposit</button>
+        <button onclick="withdraw()">Withdraw</button>
+      </div>
+      <p id="message"></p>
+    </div>
+
+    <div class="history-box">
+      <h3>Transaction History</h3>
+      <ul id="historyList">
+        <!-- Transactions will be added here dynamically -->
+      </ul>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
