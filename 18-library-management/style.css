@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+  background: #f6f8fa;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #1a1a2e;
+  font-size: 24px;
+}
+
+.form-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  background: white;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.form-box input {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+}
+
+.form-box input:focus {
+  border-color: #4361ee;
+}
+
+.form-box button {
+  padding: 10px 20px;
+  background: #4361ee;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.form-box button:hover {
+  background: #3247c5;
+}
+
+.search-box {
+  margin-bottom: 15px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+}
+
+.table-wrapper {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  overflow: hidden;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #1a1a2e;
+  color: white;
+}
+
+th, td {
+  padding: 12px 14px;
+  text-align: left;
+  font-size: 13px;
+}
+
+tbody tr {
+  border-bottom: 1px solid #eee;
+}
+
+tbody tr:last-child {
+  border-bottom: none;
+}
+
+tbody tr:hover {
+  background: #f9fafb;
+}
+
+.status-available {
+  color: #2ecc71;
+  font-weight: 700;
+}
+
+.status-issued {
+  color: #e67e22;
+  font-weight: 700;
+}
+
+.action-btns {
+  display: flex;
+  gap: 6px;
+}
+
+.action-btns button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+}
+
+.issue-btn {
+  background: #e67e22;
+}
+
+.issue-btn:hover {
+  background: #ca6b1a;
+}
+
+.return-btn {
+  background: #2ecc71;
+}
+
+.return-btn:hover {
+  background: #27ae60;
+}
+
+.delete-btn {
+  background: #e74c3c;
+}
+
+.delete-btn:hover {
+  background: #c0392b;
+}
+
+.empty-msg {
+  text-align: center;
+  padding: 25px;
+  color: #999;
+  font-size: 13px;
+}
+
+.hidden {
+  display: none;
+}

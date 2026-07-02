@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Library Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Library Management System</h1>
+
+    <!-- ADD BOOK FORM -->
+    <div class="form-box">
+      <input type="text" id="titleInput" placeholder="Book Title">
+      <input type="text" id="authorInput" placeholder="Author Name">
+      <button onclick="addBook()">Add Book</button>
+    </div>
+
+    <!-- SEARCH -->
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search by title..." onkeyup="renderBooks()">
+    </div>
+
+    <!-- BOOK LIST -->
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Status</th>
+            <th>Borrower</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="bookTableBody">
+          <!-- Book rows inserted here by JS -->
+        </tbody>
+      </table>
+      <p id="emptyMsg" class="empty-msg hidden">No books found.</p>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
