@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- REGISTER FORM -->
+    <div id="registerBox" class="box">
+      <h2>Register</h2>
+      <input type="text" id="regUsername" placeholder="Username">
+      <input type="password" id="regPassword" placeholder="Password">
+      <button onclick="registerUser()">Register</button>
+      <p>Already have an account? <span onclick="showLogin()">Login here</span></p>
+    </div>
+
+    <!-- LOGIN FORM -->
+    <div id="loginBox" class="box hidden">
+      <h2>Login</h2>
+      <input type="text" id="loginUsername" placeholder="Username">
+      <input type="password" id="loginPassword" placeholder="Password">
+      <button onclick="loginUser()">Login</button>
+      <p>New here? <span onclick="showRegister()">Register</span></p>
+    </div>
+
+    <!-- WELCOME / DASHBOARD (shown after login) -->
+    <div id="welcomeBox" class="box hidden">
+      <h2>Welcome, <span id="welcomeUser"></span>!</h2>
+      <button onclick="logoutUser()">Logout</button>
+    </div>
+
+    <p id="message"></p>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
